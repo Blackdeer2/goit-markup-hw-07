@@ -1,0 +1,112 @@
+.portfolio-btn {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    margin-bottom: 50px;
+  }
+  
+  .main-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+    margin-bottom: 94px;
+    padding-left: 0px;
+  }
+  
+  .img-back-portfolio {
+    padding-left: 0px;
+    padding-right: 0px;
+  
+    /*margin-left: 30px;*/
+    margin-left: 30px;
+    margin-top: 30px;
+  
+    /*margin-bottom: 30px;*/
+  }
+  
+  .product-link {
+    text-decoration: none;
+    display: block;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .overlay-container {
+    width: 370px;
+    height: 294px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 698px;
+    left: 0;
+    width: 100%;
+    height: 294px;
+    background: rgba(33, 150, 243, 0.9);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .overlay-text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  
+    /* 155.556% */
+    letter-spacing: 0.54px;
+    padding: 63px 24px;
+  }
+  
+  .product-link {
+    &:hover .overlay, &:focus .overlay {
+      transform: translateY(-698px);
+    }
+  
+    &:hover, &:focus {
+      box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    }
+  }
+  
+  .portfolio-btn-li:not(:last-child) {
+    margin-right: 8px;
+  }
+  
+  .foto-box {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+  }
+  
+  .title-portfolio {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+    margin-bottom: 4px;
+  }
+  
+  .text-portfolio {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
