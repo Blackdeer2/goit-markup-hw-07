@@ -72,8 +72,6 @@ address {
 
 .btn {
   background: var(--blue-color);
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0px;
   font-weight: 700;
@@ -88,6 +86,8 @@ address {
   color: var(--white-color);
   margin-left: auto;
   margin-right: auto;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .btn__hero {
@@ -119,6 +119,8 @@ address {
   border: 0px;
   border-radius: 4px;
   padding: 6px 22px;
+  -webkit-box-shadow: 0 0 0 0 transparent;
+          box-shadow: 0 0 0 0 transparent;
   -webkit-transition-property: background-color, color, -webkit-box-shadow;
   transition-property: background-color, color, -webkit-box-shadow;
   transition-property: background-color, color, box-shadow;
@@ -238,7 +240,6 @@ address {
   -webkit-transition: opacity 0.3s ease, visibility 0.3s ease;
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
-
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -300,8 +301,7 @@ address {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn:hover .modal-icon,
-.modal-btn:focus .modal-icon {
+.modal-btn:hover .modal-icon, .modal-btn:focus .modal-icon {
   fill: var(--blue-color);
 }
 
@@ -357,7 +357,6 @@ address {
 .modal-form-input:focus {
   outline: 1px solid var(--blue-color);
 }
-
 .modal-form-input:focus + .modal-form-icon use {
   fill: var(--blue-color);
 }
@@ -415,11 +414,9 @@ address {
   position: absolute;
   opacity: 0;
 }
-
 .checkbox:checked + .custom-checkbox .modal-from-icon-check {
   opacity: 1;
 }
-
 .checkbox:focus + .custom-checkbox {
   border-radius: 1px;
   outline: 4px solid var(--black-color);
@@ -883,9 +880,7 @@ address {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.customer-link:hover,
-.customer-link:focus {
+.customer-link:hover, .customer-link:focus {
   border-color: var(--blue-color);
 }
 
@@ -898,8 +893,7 @@ address {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customer-link:hover .customer-icon,
-.customer-link:focus .customer-icon {
+.customer-link:hover .customer-icon, .customer-link:focus .customer-icon {
   fill: var(--blue-color);
 }
 
@@ -966,13 +960,11 @@ address {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footter-address-white:hover,
-.footter-address-white:focus {
+.footter-address-white:hover, .footter-address-white:focus {
   color: var(--blue-color);
 }
 
-.footter-address-grey:hover,
-.footter-address-grey:focus {
+.footter-address-grey:hover, .footter-address-grey:focus {
   color: var(--blue-color);
 }
 
@@ -1019,7 +1011,6 @@ address {
       flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-  margin-bottom: 94px;
   padding-left: 0px;
 }
 
